@@ -1,0 +1,24 @@
+.classA {
+    background-color: palevioletred;
+}
+
+.classB {
+    background-color: palevioletred;
+    font-size: larger;
+}
+
+.classC {
+    background-color: palevioletred;
+}
+
+#idA {
+    color: blue;
+    /* font-weight: bold; */
+    font-size: xx-large;
+}
+
+#idB {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: larger;
+}
