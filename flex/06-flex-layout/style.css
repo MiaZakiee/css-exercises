@@ -25,3 +25,51 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution */
+/* fixing layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content   : center;
+  flex: 1;  /* COPIED HAHAHAHA PERO I KNOW NOW NA FLEX GROW NA AMEN*/
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color:#eee;
+}
+
+/* to remove list bullets in lists and underline in hyperlinks */
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
